@@ -3,9 +3,9 @@ import { CssBaseline, Paper, Stepper, Step, StepLabel, Typography, CircularProgr
 import { Link, useHistory } from 'react-router-dom';
 
 import { commerce } from '../../../lib/commerce';
-import useStyles from './styles';
-import AddressForm from '../AdressForm';
+import AddressForm from '../AddressForm';
 import PaymentForm from '../PaymentForm';
+import useStyles from './styles';
 
 const steps = ['Shipping address', 'Payment details'];
 
